@@ -3,7 +3,7 @@ from __future__ import print_function
 from src.player import DummyAIPlayer, SmartAIPlayer
 from src.board import Board
 from src.game import Game
-import src.config as config
+from src import config
 
 Board.illustrate = lambda *x: None
 
