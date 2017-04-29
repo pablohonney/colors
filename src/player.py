@@ -2,10 +2,9 @@ from __future__ import print_function
 from collections import Counter
 from copy import deepcopy as copy
 
-from utils import ask
-from positioning import resolve_real_position
-from positioning import Movements
-import colors
+from .utils import ask
+from .positioning import Movements, resolve_real_position
+from . import colors
 
 
 class BasePlayer(object):

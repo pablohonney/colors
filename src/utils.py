@@ -3,7 +3,7 @@ import platform
 import os
 import sys
 
-import colors
+from . import colors
 
 if sys.version_info < (3, 0):
     input = raw_input

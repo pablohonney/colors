@@ -20,12 +20,11 @@ from __future__ import print_function
 
 import sys
 
-import player
-import config
-import colors
-from game import Game
-from utils import ask
-from utils import clear_screen
+from . import player
+from . import config
+from . import colors
+from .game import Game
+from .utils import ask, clear_screen
 
 __doc__ = __doc__.format(
     player_1=config.PLAYER_1_CHAR,

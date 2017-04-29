@@ -1,8 +1,8 @@
 from __future__ import print_function
 from random import randint
 
-from utils import clear_screen
-import colors
+from .utils import clear_screen
+from . import colors
 
 
 class Board(object):

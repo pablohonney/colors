@@ -1,7 +1,9 @@
-from colors.src.player import DummyAIPlayer, SmartAIPlayer
-from colors.src.board import Board
-from colors.src.game import Game
-import colors.src.config as config
+from __future__ import print_function
+
+from src.player import DummyAIPlayer, SmartAIPlayer
+from src.board import Board
+from src.game import Game
+import src.config as config
 
 Board.illustrate = lambda *x: None
 
@@ -19,13 +21,14 @@ winners = [winner.symbol for winner in outcomes if winner]
 
 
 def get_percent(a):
-    return a*100/len(outcomes)
+    return a * 100 / len(outcomes)
 
-print '{:15}: {}\n{:15}: {}\n{:15}: {}'.format(
+
+print('{:15}: {}\n{:15}: {}\n{:15}: {}'.format(
     Player_1.__name__,
     get_percent(winners.count(config.PLAYER_1_CHAR)),
     'Draws',
     get_percent(len(outcomes) - len(winners)),
     Player_2.__name__,
     get_percent(winners.count(config.PLAYER_2_CHAR)),
-)
+))
