@@ -1,9 +1,9 @@
 from __future__ import print_function
 
-from src.player import DummyAIPlayer, SmartAIPlayer
+import config
 from src.board import Board
 from src.game import Game
-from src import config
+from src.player import DummyAIPlayer, SmartAIPlayer
 
 Board.illustrate = lambda *x: None
 

@@ -10,9 +10,9 @@ player {player_1}: you
 player {player_2}: second player or computer
 
 Usage:
-    colors
-    colors 2D_size
-    colors x_size y_size
+    python colors
+    python colors 2D_size
+    python colors x_size y_size
 
 """
 
@@ -20,9 +20,9 @@ from __future__ import print_function
 
 import sys
 
-from . import player
-from . import config
+import config
 from . import colors
+from . import player
 from .game import Game
 from .utils import ask, clear_screen
 

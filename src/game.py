@@ -2,8 +2,8 @@ from __future__ import print_function
 
 from itertools import cycle
 
+import config
 from . import colors
-from . import config
 from .board import Board
 from .player import BaseAIPlayer
 from .positioning import Positions
