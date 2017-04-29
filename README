@@ -5,5 +5,5 @@ The one who conquers more wins )
 
 Usage:
     python colors
-    python colors 2D_size
-    python colors x_size y_size
+    python colors [2D_size]
+    python colors [x_size y_size]

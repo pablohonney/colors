@@ -11,8 +11,8 @@ player {player_2}: second player or computer
 
 Usage:
     python colors
-    python colors 2D_size
-    python colors x_size y_size
+    python colors [2D_size]
+    python colors [x_size y_size]
 
 """
 
